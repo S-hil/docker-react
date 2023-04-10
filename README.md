@@ -1,4 +1,5 @@
-#Dockerized React App: A Practical Guide 🐳🚀
+# Dockerized React App: A Practical Guide 🐳🚀
+
 This repository contains a sample React application that has been containerized using Docker. The purpose of this project is to help developers learn and practice Docker concepts while working with a React application. By following this guide, you'll understand how to streamline your development and deployment processes using Docker and React together.
 
 
