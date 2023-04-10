@@ -41,7 +41,7 @@ Open your browser and navigate to http://localhost:3000 to see the React app run
 Create a Dockerfile in the project root directory.
 Add the following content to the Dockerfile:
 
-`
+```
 # Use an official Node.js runtime as a parent image
 FROM node:14
 
@@ -63,19 +63,20 @@ EXPOSE 3000
 # Define the command to run the app
 CMD ["npm", "start"]
 `
+```
 
-## Building the Docker Image
+Building the Docker Image
 Build the Docker image by running the following command in your project directory:
 
 `docker build -t your-image-name .`
 
-## Running the Docker Container
+Running the Docker Container
 Start a Docker container using the image you just built:
 `docker run -p 3000:3000 --name your-container-name your-image-name`
 
 Visit http://localhost:3000 in your browser to see the containerized React app running.
 
-## Docker Compose
+Docker Compose
 To start the container using Docker Compose, run:
 
 `docker-compose up`
