@@ -7,20 +7,30 @@ This repository contains a sample React application that has been containerized 
 
 
 ## Table of Contents
-### Prerequisites
+
+Prerequisites
+
 Getting Started
+
 Dockerizing the React App
+
 Building the Docker Image
+
 Running the Docker Container
+
 Docker Compose
+
 Deploying the Application
 
 ### Prerequisites
 To follow along with this guide, you'll need the following installed on your machine:
 
 Node.js
+
 npm
+
 Docker
+
 Docker Compose
 
 ### Getting Started
@@ -77,6 +87,7 @@ Start a Docker container using the image you just built:
 Visit http://localhost:3000 in your browser to see the containerized React app running.
 
 Docker Compose
+
 To start the container using Docker Compose, run:
 
 `docker-compose up`
